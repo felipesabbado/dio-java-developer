@@ -4,17 +4,18 @@ public class Pilha {
 
     private No refNoEntradaPilha = null;
 
-    public void push(No novoNo) {
+    public void push(Object dado) {
+        No novoNo = new No(dado);
         No refAuxiliar = refNoEntradaPilha;
         refNoEntradaPilha = novoNo;
         refNoEntradaPilha.setRefNo(refAuxiliar);
     }
 
-    public No pop() {
+    public Object pop() {
         if (!isEmpty()) {
             No noPoped = refNoEntradaPilha;
             refNoEntradaPilha = refNoEntradaPilha.getRefNo();
-            return noPoped;
+            return noPoped.getDado();
         }
         return null;
     }

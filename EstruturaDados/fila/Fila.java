@@ -3,12 +3,13 @@ package fila;
 public class Fila {
     private No refNoEntradaFila = null;
 
-    public void enqueue(No novoNo) {
+    public void enqueue(Object obj) {
+        No novoNo = new No(obj);
         novoNo.setRefNo(refNoEntradaFila);
         refNoEntradaFila = novoNo;
     }
 
-    public No dequeue() {
+    public Object dequeue() {
         if (!this.isEmpty()) {
             No primeiroNo = refNoEntradaFila;
             No noAuxiliar = refNoEntradaFila;
@@ -17,25 +18,21 @@ public class Fila {
                 noAuxiliar = primeiroNo;
                 primeiroNo = primeiroNo.getRefNo();
             }
-
             noAuxiliar.setRefNo(null);
 
-            return primeiroNo;
+            return primeiroNo.getObject();
         }
-
         return null;
     }
 
-    public No first() {
+    public Object first() {
         if (!this.isEmpty()) {
             No primeiroNo = refNoEntradaFila;
             while (primeiroNo.getRefNo() != null) {
                 primeiroNo = primeiroNo.getRefNo();
             }
-
-            return primeiroNo;
+            return primeiroNo.getObject();
         }
-
         return null;
     }
 

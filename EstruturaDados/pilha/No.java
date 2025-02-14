@@ -1,18 +1,18 @@
 package pilha;
 
 public class No {
-    private int dado;
+    private Object dado;
     private No refNo = null;
 
-    public No(int dado) {
+    public No(Object dado) {
         this.dado = dado;
     }
 
-    public int getDado() {
+    public Object getDado() {
         return dado;
     }
 
-    public void setDado(int dado) {
+    public void setDado(Object dado) {
         this.dado = dado;
     }
 
