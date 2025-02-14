@@ -2,7 +2,7 @@ package fila;
 
 public class Main {
     public static void main(String[] args) {
-        Fila minhaFila = new Fila();
+        Fila<String> minhaFila = new Fila<>();
 
         System.out.println(minhaFila);
 

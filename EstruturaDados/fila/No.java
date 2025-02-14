@@ -1,10 +1,10 @@
 package fila;
 
-public class No {
-    private Object object;
-    private No refNo;
+public class No<T> {
+    private No<T> refNo;
+    private T object;
 
-    public No(Object object) {
+    public No(T object) {
         this.refNo = null;
         this.object = object;
     }
@@ -13,7 +13,7 @@ public class No {
         return object;
     }
 
-    public void setObject(Object object) {
+    public void setObject(T object) {
         this.object = object;
     }
 
