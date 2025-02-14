@@ -1,4 +1,4 @@
-package sabbado;
+package pilha;
 
 public class No {
     private int dado;
