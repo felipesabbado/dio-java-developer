@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Task.Types.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-16T18:31:46.855Z" hostname="FELIPE-DESKTOP" time="0.005">
+  <properties/>
+  <testcase name="testAppHasAGreeting" classname="Task.Types.AppTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

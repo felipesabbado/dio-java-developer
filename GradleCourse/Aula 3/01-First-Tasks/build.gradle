@@ -1,0 +1,30 @@
+println "Hello build.gradle"
+
+// Definir a variável para o nome do grupo de novas tasks
+def myGroup = "My Group"
+
+// Criar minha primeira task personalizada
+task myFirstTask {
+	group = myGroup
+	description = "This is only a test"
+	doFirst {
+		println "doFirst: Hello myFirstTask"
+	}
+	doLast {
+		println "doLast: Hello myFirstTask"
+	}
+}
+
+// Criar minhas segunda task personalizada
+task mySecondTask(group: myGroup, description: "this is more than a test") {
+	doLast {
+		println "doLast: Hello mySecondTask"
+	}
+}
+
+// Alterar task existentes por default ou por plugin
+tasks.named('tasks') {
+	doLast {
+		println "Modifying the end of tasks task"
+	}
+}

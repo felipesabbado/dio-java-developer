@@ -1,0 +1,43 @@
+task turnOnTheCar {
+	doLast {
+		println "Engine on"
+	}
+}
+
+task accelarateTheCar {
+	// Para ser executada a task depende de outra task
+	dependsOn "turnOnTheCar"
+	// Depois de executada a task outra será executada
+	finalizedBy "speedUp"
+	doLast {
+		println "Vrrrummmm!!!"
+	}
+}
+
+task afterDefaultTask {
+	// Pode depender de tasks default ou de plugins
+	dependsOn "projects"
+	doLast {
+		println "afterDefaultTask"
+	}
+}
+
+task speedUp {
+	doLast {
+		println "speeding up"
+	}
+}
+
+task turnOnTheRadio {
+	// Se executada a task especificada, esta task tem
+	// que ser executada depois
+	mustRunAfter "turnOnTheCar"
+	doLast {
+		println "turnOnTheRadio"
+	}
+}
+
+task driveCrazy {
+	// Uma task pode depender de mais de uma task
+	dependsOn = ["turnOnTheRadio", "accelarateTheCar"]
+}
