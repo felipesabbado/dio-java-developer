@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PessoaTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-06T17:18:45.390Z" hostname="FELIPE-DESKTOP" time="0.024">
+  <properties/>
+  <testcase name="deveRetornarSeEhMaiorDeIdade()" classname="PessoaTest" time="0.002"/>
+  <testcase name="deveCalcularIdadeCorretamente()" classname="PessoaTest" time="0.005"/>
+  <testcase name="validarCalculoDeIdade()" classname="PessoaTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

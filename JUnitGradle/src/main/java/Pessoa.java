@@ -21,4 +21,8 @@ public class Pessoa {
     public int getIdade() {
         return (int) ChronoUnit.YEARS.between(this.nascimento, LocalDate.now());
     }
+
+    public boolean ehMaiorDeIdade() {
+        return getIdade() >= 18;
+    }
 }

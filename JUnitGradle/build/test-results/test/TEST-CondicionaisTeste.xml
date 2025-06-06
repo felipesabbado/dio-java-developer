@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CondicionaisTeste" tests="3" skipped="1" failures="0" errors="0" timestamp="2025-06-06T17:18:45.224Z" hostname="FELIPE-DESKTOP" time="0.018">
+  <properties/>
+  <testcase name="validarAlgoNoWindows()" classname="CondicionaisTeste" time="0.001"/>
+  <testcase name="validarAlgoNoUsuarioNaoWillyan()" classname="CondicionaisTeste" time="0.003"/>
+  <testcase name="validarAlgoSomenteNoUsuarioWillyan()" classname="CondicionaisTeste" time="0.001">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

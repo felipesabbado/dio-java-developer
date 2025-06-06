@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EscolhendoAOrdemTeste" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-06T17:18:45.316Z" hostname="FELIPE-DESKTOP" time="0.041">
+  <properties/>
+  <testcase name="A" classname="EscolhendoAOrdemTeste" time="0.006"/>
+  <testcase name="B" classname="EscolhendoAOrdemTeste" time="0.008"/>
+  <testcase name="C" classname="EscolhendoAOrdemTeste" time="0.006"/>
+  <testcase name="D" classname="EscolhendoAOrdemTeste" time="0.008"/>
+  <system-out><![CDATA[Fluxo A
+Fluxo B
+Fluxo C
+Fluxo D
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

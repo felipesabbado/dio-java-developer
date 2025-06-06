@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ConsultarDadosDePessoaTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-06T17:18:45.278Z" hostname="FELIPE-DESKTOP" time="0.029">
+  <properties/>
+  <testcase name="validarDadosDeRetorno()" classname="ConsultarDadosDePessoaTest" time="0.014"/>
+  <testcase name="validarDadosDeRetorno2()" classname="ConsultarDadosDePessoaTest" time="0.013"/>
+  <system-out><![CDATA[Validou dados
+Validou dados 2
+]]></system-out>
+  <system-err><![CDATA[jun. 06, 2025 6:18:45 DA TARDE BancoDeDados iniciarConexao
+INFO: Iniciou conexão
+jun. 06, 2025 6:18:45 DA TARDE BancoDeDados insereDados
+INFO: Inseriu pessoa no BD
+jun. 06, 2025 6:18:45 DA TARDE BancoDeDados removeDados
+INFO: Removeu pessoa do BD
+jun. 06, 2025 6:18:45 DA TARDE BancoDeDados insereDados
+INFO: Inseriu pessoa no BD
+jun. 06, 2025 6:18:45 DA TARDE BancoDeDados removeDados
+INFO: Removeu pessoa do BD
+jun. 06, 2025 6:18:45 DA TARDE BancoDeDados finalizarConexao
+INFO: Finalizou conexão
+]]></system-err>
+</testsuite>

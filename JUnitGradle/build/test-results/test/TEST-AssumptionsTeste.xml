@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AssumptionsTeste" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-06T17:18:45.202Z" hostname="FELIPE-DESKTOP" time="0.004">
+  <properties/>
+  <testcase name="validarAlgoSomenteNoUsuarioWillyan()" classname="AssumptionsTeste" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

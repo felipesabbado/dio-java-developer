@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AssertionsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-06T17:18:45.127Z" hostname="FELIPE-DESKTOP" time="0.059">
+  <properties/>
+  <testcase name="validarLancamentos()" classname="AssertionsTest" time="0.026"/>
+  <testcase name="validarSeObjetoEstaNulo()" classname="AssertionsTest" time="0.019"/>
+  <testcase name="validarNumerosDeTiposDiferentes()" classname="AssertionsTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
